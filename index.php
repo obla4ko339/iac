@@ -1,7 +1,8 @@
 <?php
-echo "Hello";
-
-echo "Какие то изменения";
-echo "Какие то изменения";
-echo "Какие то изменения";
-echo "Какие то измененddddddия";
+include "FormText.php";
+$formText = new FormText\FormText(15, 100);
+$formText->setName("myFirstText");
+$formText->setType("text");
+//$formText->setValue("Значение");
+$formText->setPlaceholder("Имя");
+echo $formText->inputText();
