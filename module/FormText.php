@@ -6,7 +6,6 @@
  * Time: 20:37
  */
 
-namespace FormText;
 
 
 
